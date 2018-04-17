@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="go-mallls-repository" />
+        <module name="go-malls-config" />
+        <module name="go-malls-domain" />
+        <module name="go-malls-dubbo-interface" />
+        <module name="go-malls-interface" />
+        <module name="go-malls-service" />
+        <module name="go-malls-web" />
+        <module name="go-malls-webls" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="go-mallls-repository" target="1.5" />
+      <module name="go-malls" target="1.5" />
+      <module name="go-malls-config" target="1.5" />
+      <module name="go-malls-domain" target="1.5" />
+      <module name="go-malls-interface" target="1.5" />
+      <module name="go-malls-service" target="1.5" />
+      <module name="go-malls-web" target="1.8" />
+      <module name="go-malls-webls" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

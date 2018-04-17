@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/go-mallls-repository/go-mallls-repository.iml" filepath="$PROJECT_DIR$/go-mallls-repository/go-mallls-repository.iml" />
+      <module fileurl="file://$PROJECT_DIR$/go-malls.iml" filepath="$PROJECT_DIR$/go-malls.iml" />
+      <module fileurl="file://$PROJECT_DIR$/go-malls-config/go-malls-config.iml" filepath="$PROJECT_DIR$/go-malls-config/go-malls-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/go-malls-domain/go-malls-domain.iml" filepath="$PROJECT_DIR$/go-malls-domain/go-malls-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/go-malls-interface/go-malls-interface.iml" filepath="$PROJECT_DIR$/go-malls-interface/go-malls-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/go-malls-service/go-malls-service.iml" filepath="$PROJECT_DIR$/go-malls-service/go-malls-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/go-malls-web/go-malls-web.iml" filepath="$PROJECT_DIR$/go-malls-web/go-malls-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/go-malls-webls/go-malls-webls.iml" filepath="$PROJECT_DIR$/go-malls-webls/go-malls-webls.iml" />
+    </modules>
+  </component>
+</project>
