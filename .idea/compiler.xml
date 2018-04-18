@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="go-mallls-repository" />
+        <module name="go-malls-common" />
         <module name="go-malls-config" />
         <module name="go-malls-domain" />
         <module name="go-malls-dubbo-interface" />
@@ -19,11 +20,11 @@
     <bytecodeTargetLevel target="1.8">
       <module name="go-mallls-repository" target="1.5" />
       <module name="go-malls" target="1.5" />
+      <module name="go-malls-common" target="1.5" />
       <module name="go-malls-config" target="1.5" />
       <module name="go-malls-domain" target="1.5" />
       <module name="go-malls-interface" target="1.5" />
       <module name="go-malls-service" target="1.5" />
-      <module name="go-malls-web" target="1.8" />
       <module name="go-malls-webls" target="1.5" />
     </bytecodeTargetLevel>
   </component>

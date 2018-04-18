@@ -15,6 +15,7 @@
         <module>go-malls-config</module>
         <module>go-malls-interface</module>
         <module>go-malls-webls</module>
+        <module>go-malls-common</module>
     </modules>
 
 
