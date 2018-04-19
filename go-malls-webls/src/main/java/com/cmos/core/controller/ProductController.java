@@ -3,6 +3,7 @@ package com.cmos.core.controller;
 import java.util.Collection;
 import java.util.Map;
 
+import com.cmos.common.util.ConstantPath;
 import com.cmos.domain.Product;
 import com.cmos.service.IProductService;
 
@@ -30,7 +31,7 @@ public class ProductController {
      * 首页展示
      * @return
      */
-    @RequestMapping("/")
+    @RequestMapping(ConstantPath.PRODUCT_MANAGE_INDEX)
     public String showIndex(){
         return "index2";
     }

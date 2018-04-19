@@ -235,5 +235,11 @@
             <version>2.9.4</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.cmos</groupId>
+            <artifactId>go-malls-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
     </dependencies>
 </project>
