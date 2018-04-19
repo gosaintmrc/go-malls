@@ -20,4 +20,6 @@
     <dubbo:protocol name="dubbo" port="20891" />
     <!-- 向注册中心注册暴漏服务地址,注册服务 -->
     <dubbo:service interface="com.cmos.service.IUserService"  ref="userServiceImpl"   timeout="600000" />
+    <!--注册商品服务-->
+    <dubbo:service interface="com.cmos.service.IProductService"  ref="productServiceImpl"   timeout="600000" />
 </beans>

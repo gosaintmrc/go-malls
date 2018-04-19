@@ -11,4 +11,6 @@
     <dubbo:registry address="zookeeper://127.0.0.1:2181" />
     <!-- 向注册中心订阅服务 -->
     <dubbo:reference  interface="com.cmos.service.IUserService"  id="userService"   timeout="6000"  check="false"/>
+    <!--引用商品服务-->
+    <dubbo:reference  interface="com.cmos.service.IProductService"  id="productService"   timeout="6000"  check="false"/>
 </beans>

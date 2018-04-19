@@ -9,12 +9,12 @@
 
     <context:component-scan base-package="com.cmos.core.controller"/>
     <mvc:annotation-driven/>
-    <bean
-            class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/jsp/"/>
         <property name="suffix" value=".jsp"/>
     </bean>
 
+    <!--配置静态资源过滤器-->
     <!-- 配置多媒体解析器 -->
     <!-- 定义文件上传解析器 -->
     <bean id="multipartResolver"
